@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sound Bites I</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      background-color: lightgray;
+    }
+    figcaption {
+      display: inline-flex;
+      font-size: 17px;
+    }
+    audio {
+      background-color: pink;
+      height: 10px;
+      display: inline-flex;
+      outline: none;
+      opacity: 0%;
+    }
+    img {
+      height: 100px;
+      margin-left:auto;
+    }
+    .mix-grid figcaption {
+      display: flex;
+      border-color: RGB(0,255,0);
+    }
+    .mix-grid figcaption:hover {
+      background-color: RGB(0,255,0);
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+    }
+    .audio-row-one {
+      margin-top: -15px;
+      z-index: 1;
+    }
+    .cap-row-two {
+      margin-top: -20px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 2;
+    }
+    .audio-row-two {
+      margin-top: -35px;
+      z-index: 3;
+    }
+    .cap-row-three {
+      margin-top: -20px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 4;
+    }
+    .audio-row-three {
+      margin-top: -20px;
+      z-index: 5;
+    }
+    .cap-row-four {
+      margin-top: -2px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 6;
+    }
+    .audio-row-four {
+      margin-top: -13px;
+      z-index: 8;
+    }
+
+    .mix-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+    }
+
+    .nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+    }
+    .nav figcaption {
+      display: flex;
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+      background-color: RGB(0,255,0);
+    }
+    .nav figcaption:hover {
+      text-decoration:underline;
+    }
+    a, a:visited {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="nav">
+      <figcaption><a href="sound-bites-1.html">1. Sound Bites I</a></figcaption>
+      <figcaption><a href="sound-bites-2.html">2. Sound Bites II</a></figcaption>
+      <figcaption>3. </figcaption>
+      <figcaption>4. </figcaption>
+    </div>
+
+<div class="grid">
+  <figcaption>1. Adam_Tangerine</figcaption>
+  <figcaption>2. Ameena_clementine</figcaption>
+  <figcaption>3. Bec_kumquats</figcaption>
+  <figcaption>4. Caton_Watermelon-1</figcaption>
+
+  <audio class="audio-row-one" controls src="Media/Adam_Tangerine.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Ameena_clementine.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Bec_kumquats.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Caton_Watermelon-1.mp4"></audio>
+
+
+
+  <figcaption class="cap-row-two">5. Caton_Watermelon-2</figcaption>
+  <figcaption class="cap-row-two">6. Chris-eats-a-cutie</figcaption>
+  <figcaption class="cap-row-two">7. JT_Bloobarees</figcaption>
+  <figcaption class="cap-row-two">8. JT_Strobaree</figcaption>
+
+  <audio class="audio-row-two" controls src="Media/Caton_Watermelon-2.mp4"></audio>
+  <audio class="audio-row-two" controls src="Media/Chris-eats-a-cutie.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/JT_Bloobarees.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/JT_Strobaree.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-three">9. MC_blueberries</figcaption>
+  <figcaption class="cap-row-three">10. Nicole_strawberries</figcaption>
+  <figcaption class="cap-row-three" style="margin-top:-25px;">11. Ollie_FRUITING-🍓</figcaption>
+  <figcaption class="cap-row-three">12. Sabrina_tangerine</figcaption>
+
+  <audio class="audio-row-three" controls src="Media/MC_blueberries.mp3"></audio>
+  <audio class="audio-row-three" controls src="Media/Nicole_strawberries.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Ollie_FRUITING-🍓.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sabrina_tangerine.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-four">13. Stella_Apple</figcaption>
+  <figcaption class="cap-row-four">14. Victor_Eating-a-banana</figcaption>
+  <figcaption class="cap-row-four">15. Wendi_banana</figcaption>
+  <figcaption class="cap-row-four">16. Luca_3-large-strawberries</figcaption>
+
+  <audio class="audio-row-four" controls src="Media/Stella_Apple.m4a"></audio>
+  <audio class="audio-row-four" controls src="Media/Victor_Eating-a-banana.m4a"></audio>
+  <audio class="audio-row-four" controls src="Media/Wendi_banana.m4a"></audio>
+  <audio class="audio-row-four" controls src="Media/Luca_3-large-strawberries.m4a"></audio>
+</div>
+
+<br>
+
+<div class="mix-grid">
+  <figcaption>1. Swimming in a pond</figcaption>
+  <figcaption>2. Paper and fire</figcaption>
+  <figcaption>3. </figcaption>
+  <figcaption>4. </figcaption>
+  <figcaption>5. Lettuce and milk</figcaption>
+  <figcaption>6. Freshly cracked pepper</figcaption>
+  <figcaption>7. </figcaption>
+  <figcaption>8. Rabbit eating carrot</figcaption>
+  <figcaption>9. </figcaption>
+  <figcaption>10. Walking in mud</figcaption>
+  <figcaption>11. </figcaption>
+  <figcaption>12. </figcaption>
+  <figcaption>13. </figcaption>
+  <figcaption>14. </figcaption>
+  <figcaption>15. </figcaption>
+  <figcaption>16. </figcaption>
+  <figcaption>1.2.3.4.5.6.7.8.9.10.11.12.13.14. Rainforest</figcaption>
+  <figcaption>8.10.11. Eating an apple in the rain</figcaption>
+  <figcaption></figcaption>
+  <figcaption></figcaption>
+
+</div>
+</body>
+</html>

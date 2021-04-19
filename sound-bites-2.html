@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sound Bites II</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      background-color: lightgray;
+      overflow:hidden;
+    }
+    figcaption {
+      display: inline-flex;
+      font-size: 17px;
+      text-align: left;
+    }
+    audio {
+      background-color: pink;
+      height: 10px;
+      display: inline-flex;
+      outline: none;
+      opacity: 0%;
+    }
+    img {
+      height: 100px;
+      margin-left:auto;
+    }
+    .mix-grid figcaption {
+      display: flex;
+      border-color: RGB(0,255,0);
+    }
+    .mix-grid figcaption:hover {
+      background-color: RGB(0,255,0);
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      text-align: center;
+    }
+
+
+    .audio-row-one {
+      margin-top: -15px;
+      z-index: 1;
+    }
+    .cap-row-two {
+      margin-top: -20px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 2;
+    }
+    .audio-row-two {
+      margin-top: -35px;
+      z-index: 3;
+    }
+    .cap-row-three {
+      margin-top: -40px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 4;
+    }
+    .audio-row-three {
+      margin-top: -55px;
+      z-index: 5;
+    }
+    .cap-row-four {
+      margin-top: -60px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 6;
+    }
+    .audio-row-four {
+      margin-top: -75px;
+      z-index: 7;
+    }
+    .cap-row-five {
+      margin-top: -60px;
+      z-index: 8;
+    }
+    .audio-row-five {
+      margin-top: -55px;
+      z-index: 9;
+    }
+
+    .mix-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      text-align: center;
+      white-space:nowrap;
+      text-overflow:ellipsis;
+      overflow:scroll;
+    }
+
+    .nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+    }
+    .nav figcaption {
+      display: flex;
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+      background-color: RGB(0,255,0);
+    }
+    .nav figcaption:hover {
+      text-decoration:underline;
+    }
+    a, a:visited {
+      text-decoration: none;
+      color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <figcaption><a href="sound-bites-1.html">1. Sound Bites I</a></figcaption>
+    <figcaption><a href="sound-bites-2.html">2. Sound Bites II</a></figcaption>
+    <figcaption>3. </figcaption>
+    <figcaption>4. </figcaption>
+  </div>
+
+
+<div class="grid">
+  <figcaption>1. Sunday, March 28, 2021</figcaption>
+  <figcaption>2. Thursday, April 1, 2021</figcaption>
+  <figcaption>3. Tuesday, April 6, 2021</figcaption>
+  <figcaption>4. Wednesday, April 7, 2021</figcaption>
+
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-II/03-28_morning-apple-chinese.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-II/04-01_spring-rolls.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-II/04-06_Burrito-cam-jp-kitchen-window.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-II/04-07_Coffee-toast.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-two">5. Wednesday, April 7, 2021</figcaption>
+  <figcaption class="cap-row-two">6. Wednesday, April 7, 2021</figcaption>
+  <figcaption class="cap-row-two">7. Wednesday, April 7, 2021</figcaption>
+  <figcaption class="cap-row-two">8. Wednesday, April 7, 2021</figcaption>
+
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-II/04-07__toast.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-II/04-07_Working-kitchen-windo.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-II/04-07_Kielbasa-tacos.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-II/04-07_Oreos-w-wendi.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-three">9. Wednesday, April 7, 2021</figcaption>
+  <figcaption class="cap-row-three">10. Thursday, April 8, 2021</figcaption>
+  <figcaption class="cap-row-three">11. Friday, April 9, 2021</figcaption>
+  <figcaption class="cap-row-three">12. Monday, April 12, 2021</figcaption>
+
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-II/04-07_wendi-cam.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-II/04-08_Toast-kitchen-window.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-II/04-09_Frozen-grapes-after-studio.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-II/04-12_Emptying-dishwasher.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-four">13. Monday, April 12, 2021</figcaption>
+  <figcaption class="cap-row-four">14. Thursday, April 15, 2021</figcaption>
+  <figcaption class="cap-row-four">15. Friday, April 16, 2021</figcaption>
+  <figcaption class="cap-row-four">16. Friday, April 16, 2021</figcaption>
+
+
+  <audio class="audio-row-four" controls src="Media/Sound-Bites-II/04-12_Apple.m4a"></audio>
+  <audio class="audio-row-four" controls src="Media/Sound-Bites-II/04-15_shwarma-bowl.m4a"></audio>
+  <audio class="audio-row-four" controls src="Media/Sound-Bites-II/04-16_Cam-making-burgers-post-my-walk.m4a"></audio>
+  <audio class="audio-row-four" controls src="Media/Sound-Bites-II/04-16_How-deep-is-your-love-apple-note-to-tiger-dingsun-for-laurel.m4a"></audio>
+
+
+  <figcaption class="cap-row-five">17. Friday, April 16, 2021</figcaption>
+  <figcaption class="cap-row-five">18. Saturday, April 17, 2021</figcaption>
+  <figcaption class="cap-row-five">19. Sunday, April 18, 2021</figcaption>
+  <figcaption class="cap-row-five">20. </figcaption>
+
+  <audio class="audio-row-five" controls src="Media/Sound-Bites-II/04-16_Breeze-chicken-seaweed-rice.m4a"></audio>
+  <audio class="audio-row-five" controls src="Media/Sound-Bites-II/04-17_Soba.m4a"></audio>
+  <audio class="audio-row-five" controls src="Media/Sound-Bites-II/04-18_Pb-toast.m4a"></audio>
+  <audio class="audio-row-five" controls src="Media/Sound-Bites-II/???"></audio>
+
+</div>
+
+
+<br>
+
+<div class="mix-grid">
+  <figcaption>1. Morning apple studying Chinese before class</figcaption>
+  <figcaption>2. Lunchtime spring rolls during Sculpture I</figcaption>
+  <figcaption>3. Leftover burrito and Cam visualizing thoughts</figcaption>
+  <figcaption>4. Morning coffee and toast</figcaption>
+  <figcaption>5. Morning toast</figcaption>
+  <figcaption>6. Hiroshi Yoshimura while working at kitchen window</figcaption>
+  <figcaption>7. Making Kielbasa tacos</figcaption>
+  <figcaption>8. Wendi eating Oreos</figcaption>
+  <figcaption>9. Cam and Wendi laughing</figcaption>
+  <figcaption>10. Morning toast at kitchen window</figcaption>
+  <figcaption>11. Frozen grapes after studio</figcaption>
+  <figcaption>12. Emptying dishwasher</figcaption>
+  <figcaption>13. Apple</figcaption>
+  <figcaption>14. Mamoun's falafel for dinner</figcaption>
+  <figcaption>15. Cam making burgers after my walk</figcaption>
+  <figcaption>16. How Deep is Your Love while working for Link</figcaption>
+  <figcaption>17. Breeze and lunchtime chicken and seaweed</figcaption>
+  <figcaption>18. Soba</figcaption>
+  <figcaption>19. Peanut butter toast</figcaption>
+  <figcaption>20. </figcaption>
+
+</div>
+</body>
+</html>
