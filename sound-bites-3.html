@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sound Bites I</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    body {
+      background-color: lightgray;
+    }
+    figcaption {
+      display: inline-flex;
+      font-size: 17px;
+    }
+    audio {
+      background-color: pink;
+      height: 10px;
+      display: inline-flex;
+      outline: none;
+      opacity: 0%;
+    }
+    img {
+      height: 100px;
+      margin-left:auto;
+    }
+    /*
+    .mix-grid figcaption:hover {
+      background-color: RGB(0,255,0);
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+    }
+    .grid figcaption:hover {
+      background-color: RGB(0,255,0);
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+    }
+    */
+    .grid {
+      color:darkgreen;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+    }
+
+    .audio-row-one {
+      margin-top: -15px;
+      z-index: 1;
+    }
+    .cap-row-two {
+      margin-top: -20px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 2;
+    }
+    .audio-row-two {
+      margin-top: -35px;
+      z-index: 3;
+    }
+    .cap-row-three {
+      margin-top: -20px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 4;
+    }
+    .audio-row-three {
+      margin-top: -20px;
+      z-index: 5;
+    }
+    .cap-row-four {
+      margin-top: -2px;
+      padding-bottom: 0px;
+      border-bottom: 0px;
+      z-index: 6;
+    }
+    .audio-row-four {
+      margin-top: -13px;
+      z-index: 8;
+    }
+
+    .mix-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-overflow:ellipsis;
+      overflow:scroll;
+    }
+
+    .nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      text-align: center;
+    }
+    .nav figcaption {
+      display: flex;
+      box-shadow: 0 0 15px 5px RGB(0,255,0);
+      background-color: RGB(0,255,0);
+    }
+    .nav figcaption:hover {
+      text-decoration:underline;
+    }
+    a, a:visited {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="nav">
+      <figcaption><a href="sound-bites-1.html">1. Sound Bites I</a></figcaption>
+      <figcaption><a href="sound-bites-2.html">2. Sound Bites II</a></figcaption>
+      <figcaption><a href="sound-bites-3.html">3. Sound Bites III</a></figcaption>
+      <figcaption>4. </figcaption>
+    </div>
+
+<div class="grid">
+  <figcaption>1. 00</figcaption>
+  <figcaption>2. 50</figcaption>
+  <figcaption>3. 60</figcaption>
+  <figcaption>4. 70</figcaption>
+
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-III/00.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-III/50.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-III/60.m4a"></audio>
+  <audio class="audio-row-one" controls src="Media/Sound-Bites-III/70.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-two">5. 80</figcaption>
+  <figcaption class="cap-row-two">6. 90</figcaption>
+  <figcaption class="cap-row-two">7. 100</figcaption>
+  <figcaption class="cap-row-two">8. 110</figcaption>
+
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-III/80.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-III/90.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-III/100.m4a"></audio>
+  <audio class="audio-row-two" controls src="Media/Sound-Bites-III/110.m4a"></audio>
+
+
+
+  <figcaption class="cap-row-three">9. 120</figcaption>
+  <figcaption class="cap-row-three">10. 130</figcaption>
+  <figcaption class="cap-row-three" style="margin-top:-25px;">11. 140</figcaption>
+  <figcaption class="cap-row-three">12. 00</figcaption>
+
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-III/120.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-III/130.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-III/140.m4a"></audio>
+  <audio class="audio-row-three" controls src="Media/Sound-Bites-III/-.m4a"></audio>
+
+
+
+</div>
+
+<br>
+
+<div class="mix-grid">
+  <figcaption>1. Not warmed up</figcaption>
+  <figcaption>2. Time moves slower in the last quarter</figcaption>
+  <figcaption>3. Suddenly fast</figcaption>
+  <figcaption>4. Warmed up</figcaption>
+  <figcaption>5. Individual notes, but L/R as separate threads; no stitch</figcaption>
+  <figcaption>6. Worse than 80, but settled by last few notes</figcaption>
+  <figcaption>7. Overthinking; break in communication between L/R</figcaption>
+  <figcaption>8. A little better</figcaption>
+  <figcaption>9. Justified lost notes; melody over division</figcaption>
+  <figcaption>10. New mistakes at the end</figcaption>
+  <figcaption>11. Last notes lost tempo; brain too slow</figcaption>
+  <figcaption>12. Some parts muscle, other parts mind</figcaption>
+
+</div>
+</body>
+</html>
